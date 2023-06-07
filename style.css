@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body_homepage {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("back.jpg");
+    background-color:rgba(0, 0, 0, 0.75);
+    background-blend-mode: darken; /* Learned this property on my own from w3 schools */
+    background-repeat: no-repeat;
+    background-size: cover;   
+    color: white;
+    
+  }
+
+  header {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;   /* Learned this property on my own from w3 schools */
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;   /* Learned this property on my own from w3 schools */
+    top:0px;
+  }
+  
+  .logo1 {
+    margin-left: 100px;
+    height: 90px;
+    width: 80px;
+  }
+
+  .logoClick:hover{
+   cursor: pointer;
+   text-decoration: none;
+  }
+  
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  ul li {
+    padding: 0 50px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+
+  }
+
+ul li a:focus{
+    color:rgb(255, 0, 0);
+}  
+ul li a:link{
+    color:rgb(255, 255, 255);
+}
+ul li a:hover{
+    color:orange;
+}
+ul li a:active{
+    color:rgb(249, 15, 234);
+}
+ul li a:visited{
+    color:rgb(171, 255, 3);
+}
+
+  .homeMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.info{
+    position: absolute;   /* Learned this property on my own from w3 schools */
+    top: 240px;
+    left: 180px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.info .btn .button1 a:focus{
+    color:rgb(225, 237, 5);
+}
+.info .btn .button1 a:link{
+    color:rgb(0, 0, 0);
+}
+.info .btn .button1 a:hover{
+    color:rgb(36, 116, 4);
+}
+.info .btn .button1 a:active{
+    color:rgb(241, 8, 8);
+}
+.info .btn .button1 a:visited{
+    color:rgb(3, 8, 255);
+}
+.btn{
+display: flex;
+justify-content: center;
+color:black;
+text-decoration: none;
+
+}    
+.info .btn .button1 {
+    border: 2px solid orange;
+    border: none;
+    background-color: yellow;
+    color: black;
+    text-decoration: none; 
+    outline: none;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 750;
+    cursor: pointer;
+  }
+  
+    
+.photos{
+    position: absolute;  /* Learned this property on my own from w3 schools */
+    bottom: 0; 
+    right: 10px;
+}
+
+.photos:hover .shape{
+    transform: translate(20px, -30px);  /* Learned this property on my own from w3 schools */
+}
+
+.photos:hover .boy1{
+    transform: translateX(30px);  /* Learned this property on my own from w3 schools */
+}
+#color{
+    color: orange;
+}
+
+.shape{
+    height: 80vh;
+    position: absolute;  /* Learned this property on my own from w3 schools */
+    bottom:0;
+    right: 150px;
+}
+
+.boy1{
+    z-index: 100;
+    height:75vh;
+    width: auto;
+    position: absolute;  /* Learned this property on my own from w3 schools */
+    bottom: 0;
+    right: 180px;
+}
+
+.body_skills{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("biceps.jpg");
+    background-color:rgba(0, 0, 0, 0.75);
+    background-blend-mode: darken;  /* Learned this property on my own from w3 schools */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+  } 
+
+.mySkills{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+    font-size: 20px;
+    color:orange
+}  
+
+.skillSection{
+    display: flex;  /* Learned this property on my own from w3 schools */
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.skillHover:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.myHobbies{
+    margin-top:50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center; 
+    font-size: 20px;
+    color: orange;
+}
+.hobbySection{
+    margin-top: 10 px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.imgs{
+  text-align: center;
+  margin:30px;
+  line-height: 50px;
+}
+
+.imgs:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.body_about{
+    background-image: url("dumbells.jpg");
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    margin:30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: orange;
+}
+
+.about_Img{
+    display: flex;
+    justify-content: center;
+}
+
+.about_descrip{
+    margin: 30px 0px;
+    font-size: 20px;
+    display: flex;  /* Learned this property on my own from w3 schools */
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:480px) and (max-width:740px){
+    .body_homepage{
+        background-color: black;
+     }
+}
+
+@media only screen and (max-width:480px) {
+  .about{
+    width: 100%;
+    
+  }  
+  .about_Img img{
+    width:480px;
+    
+    height: auto;
+  }
+  .about_descrip{
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+ .body_about{
+    background-color: black;
+    width: 480px;
+    height: auto;
+ }
+ header
+ {
+    display: flex;
+    justify-content: space-between;
+ }
+ .logo1 {
+   margin-left: 0;
+    height: 90px;
+    width: 80px;
+  }
+ul{
+    display: inline;
+    list-style-type: none;
+    align-items: center;
+}
+ul li{
+    padding: 0 20px;
+}
+.skillSection{
+    display:block;
+    text-align: center;
+  
+    
+   
+ }
+h1{
+    text-align: center;
+}
+.info {
+    position: static;
+    text-align: center;
+    margin-top: 400px;
+    margin-bottom: 30px;
+    left: 0;
+    right: 0;
+  }
+
+  .info .btn .button1 {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+ .photos{
+    margin-right:-100px;
+}
+ 
+ 
+    
+
+
+.body_homepage{
+    background-color: black;
+    width: 480px;
+    height: auto;
+ }
+
+}
